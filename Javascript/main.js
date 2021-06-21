@@ -49,6 +49,3 @@ var TxtType = function(el, toRotate, period) {
             }
         }
     };
-
-
-Resources
