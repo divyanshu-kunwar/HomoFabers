@@ -1,4 +1,4 @@
-var particlesQuantity = 50;
+var particlesQuantity = 40;
 
 var positionX = new Array(particlesQuantity);
 var positionY = new Array(particlesQuantity);
@@ -6,8 +6,8 @@ var velocityX = new Array(particlesQuantity).fill(0);
 var velocityY = new Array(particlesQuantity).fill(0);
 function setup(){
   createCanvas(window.innerWidth, window.innerHeight);
-  stroke(random(0,255), random(0,255), 255);
-  strokeWeight(3);
+  
+  noStroke();
 	
 	for (var particle = 1; particle < particlesQuantity; particle++) {
 		positionX[particle] = random(0, width);
@@ -41,8 +41,9 @@ function draw(){
 		if ((positionY[particle] < 0 && velocityY[particle] < 0) || (positionY[particle] > height && velocityY[particle] > 0)) {
 			velocityY[particle] = -velocityY[particle];
 		}
-		
-		point(positionX[particle], positionY[particle]);
+		//ellipse(positionX[particle]-5, positionY[particle]-3,5,5);
+		fill(255,255,255,random(100,255));
+		star(positionX[particle]-5, positionY[particle]-3,2,1,5);
 	}
 }
 function mousePressed() {
@@ -51,3 +52,17 @@ function mousePressed() {
 		positionY[particle] = random(0, height);
 	}
 }
+function star(x, y,radius1, radius2, npoints) {
+	angle = TWO_PI / npoints;
+	halfAngle = angle/2.0;
+	beginShape();
+	for ( a = 0; a < TWO_PI; a += angle) {
+	   sx = x + cos(a) * radius2;
+	   sy = y + sin(a) * radius2;
+	  vertex(sx, sy);
+	  sx = x + cos(a+halfAngle) * radius1;
+	  sy = y + sin(a+halfAngle) * radius1;
+	  vertex(sx, sy);
+	}
+	endShape(CLOSE);
+  }
