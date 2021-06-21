@@ -42,8 +42,9 @@ function draw(){
 			velocityY[particle] = -velocityY[particle];
 		}
 		//ellipse(positionX[particle]-5, positionY[particle]-3,5,5);
-		fill(255,255,255,random(100,255));
-		star(positionX[particle]-5, positionY[particle]-3,2,1,5);
+		fill(255,255,255,random(0,255));
+		star(positionX[particle], positionY[particle],2,1,random(4,6));
+
 	}
 }
 function mousePressed() {
