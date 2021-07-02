@@ -33,6 +33,7 @@ a{
     height: 40px;
 }
 #close{
+    position: fixed;
     display: none;
 }
 #hamburger{

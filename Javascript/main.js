@@ -40,6 +40,16 @@ var TxtType = function(el, toRotate, period) {
     };
 
     window.onload = function() {
+        document.getElementById('hamburger').addEventListener('click',function(event){
+            document.getElementById('collapsibleNavbar').style="display:block;"
+            document.getElementById('close').style="display:block;"
+            document.getElementById('hamburger').style="display:none;"
+        });
+        document.getElementById('close').addEventListener('click',function(event){
+            document.getElementById('collapsibleNavbar').style="display:none;"
+            document.getElementById('close').style="display:none;"
+            document.getElementById('hamburger').style="display:block;"
+        });
         var elements = document.getElementsByClassName('typewrite');
         for (var i=0; i<elements.length; i++) {
             var toRotate = elements[i].getAttribute('data-type');
