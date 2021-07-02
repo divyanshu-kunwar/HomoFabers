@@ -1,0 +1,249 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    scroll-behavior: smooth;
+    -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+body::-webkit-scrollbar {
+    display: none;
+  }  
+#logo{
+    position: absolute;
+    top: 40px;
+    left: 4.88281%;
+    cursor: pointer;
+}
+#logo-img{
+    height: 40px;
+}
+a{
+    color: #000;
+    text-decoration: none;
+}
+#logo-text{
+    font-size: 40px;
+}
+#menu-icon{
+    position: fixed;
+    top: 40px;
+    right: calc(4.88281% - 9px);
+    z-index: 999;
+    width: 40px;
+    height: 40px;
+}
+#close{
+    display: none;
+}
+#hamburger{
+    display: block;
+}
+#animationContainer{
+    top:80px;
+    left: 15%;
+    right: 15%;
+    width:70%;
+    height: 80%;
+    position: relative;
+    overflow: hidden;
+    align-self: center;
+}
+#animated-video{
+    height: auto;
+    width: 70%;
+    transform: matrix(1, 0, 0, 1, 96, -32.85);
+    display: block;
+}
+#headline-text{
+    position: relative;
+    font-family:cursive;
+    text-align: center;
+}
+#typewrite-text{
+    font-size: xxx-large;
+}
+#collapsibleNavbar{
+    top: 0px;
+    width: calc(30% + 200px);
+    height: 100%;
+    position: fixed;
+    padding-top: 100px;
+    left: 70%;
+    background-color: #191919;
+    color: #fff;
+    display:none;
+}
+#collapsibleNavbar a{
+    font-size: xx-large;
+    color: #e5e5e5;
+    font-family: cursive;
+}
+.navbar-nav{
+    list-style: none;
+}
+.nav-item{
+    margin-top: 12px;
+    margin-left: 16px;
+}
+#collapsibleNavbar a:hover{
+    color: #fff;
+    text-shadow: 0px 0px 4px #fff;
+    letter-spacing: 4px;
+    margin-left: 18px;
+}
+.outer{
+    width: 100%;
+    height: 100%;
+    position:relative;
+    margin-bottom: 20px;
+}
+.outer-container{
+    width: 100%;
+    position:relative;
+}
+#container1 , #container2, #container3 , #container4 , #container5, #container6{
+    margin-top: 10px;
+    padding:5%;
+    background-color: #ffffff;
+    align-content: center;
+}
+.projectshow{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px !important;
+    width: 100% !important;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px #B0B0B0;
+}
+.projectshow:hover{
+    box-shadow: 0px -2px 10px #79b3ff;
+}
+.card-image{
+    width: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+}
+.card-title{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-family: cursive;
+}
+.title-head{
+    font-family: cursive;
+}
+.card-title a{
+    font-size:xx-large;
+}
+footer{
+    background-color: #E5E5E5;
+    position: relative;
+}
+#button-addon1{
+    margin-top: 10px;
+    background-color: #fff;
+    border: 1px double black;
+    border-radius: 5px;
+}
+.form-control{
+    margin-top: 10px;
+    border: 1px double black;
+    border-radius: 5px;
+}
+.fa{
+    color: #000;
+}
+.grid-image{
+height: 100%;
+width: 100%;
+object-fit: cover;
+opacity: 0.95;
+border-radius: 10px;
+}
+.grid-image:hover{
+    opacity: 1;
+    border: 1px dashed #fff;
+    box-shadow: 0px 0px 10px #58d8ff;
+      /* Start the shake animation and make the animation last for 0.5 seconds */
+  animation: shake 0.5s;
+
+  /* When the animation is finished, start again */
+  animation-iteration-count: infinite;
+}
+.grid-contain{
+    margin: 0px !important;
+    padding: 1px !important;
+}
+li{
+    list-style: none;
+}
+.circular-avatar{
+    border-radius: 50px;
+    border: 1px solid rgb(224, 224, 224);
+}
+.center-element{
+      /* Center vertically */
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+.technology-used{
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px #58d8ff;
+}
+.projectshow p{
+    margin-left: 20px;
+}
+.team-meet{
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffff;
+    border-radius: 20px !important;
+    box-shadow: 0px 2px 10px #B0B0B0;
+}
+.projectshow:hover .team-img{
+    -webkit-filter: grayscale(5%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(5%);
+    transition: 2s ease;
+  }
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+  .team-img{
+      border-radius: 20px 20px 0px 0px;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    transition: 2s ease;
+  }
+.linkicon i{
+    font-size: x-large;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    box-shadow: 0px 2px 10px #c8c8c8;
+} 
+ .fa-github:hover{
+    box-shadow: 0px 2px 10px #58d8ff;
+}
+.fa-instagram:hover{
+    box-shadow: 0px 2px 10px #58d8ff;
+}
+.fa-quora:hover{
+    box-shadow: 0px 2px 10px #58d8ff;
+}
+.team-meet .linkicon{
+    margin-left: 20px;
+    margin-right: 20px;
+}
