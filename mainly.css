@@ -4,7 +4,7 @@ body{
     scroll-behavior: smooth;
     -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
-  cursor: url('../Media/cursor.png') , auto;
+  cursor: url('Media/cursor.png') , auto;
 }
 body::-webkit-scrollbar {
     display: none;
@@ -89,6 +89,9 @@ a{
     text-shadow: 0px 0px 4px #fff;
     letter-spacing: 4px;
     margin-left: 18px;
+}
+#collapsibleNavbar a:active{
+    text-shadow: 0px 0px 4px #58d8ff;
 }
 .outer{
     width: 100%;
