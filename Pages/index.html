@@ -8,7 +8,9 @@
   <link rel="stylesheet" href="mainly.css" />
   
   <script src="../Javascript/curtains.umd.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <!--Some Downloaded Styles-->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <title>Homofabers</title>
@@ -72,11 +74,11 @@
   <!--Artwork Container-->
   <div id="container1" class="row outer-container">
     <h2 class="col-xs-12 col-md-12 col-lg-12 title-head">Art Work <br><br></h2>
-    <div class="grid-contain col-xs-12 col-sm-12 col-md-6 col-lg-6">
+    <div data-aos="fade-right" class="grid-contain col-xs-12 col-sm-12 col-md-6 col-lg-6">
       <div class="grid-contain row">
         <div class="grid-contain col-4">
           <div class="grid-contain row">
-            <img class="grid-image" src="../Media/4.jpg">
+            <img class="grid-image" src="../Media/2.jpg">
           </div>
           <div class="grid-contain row">
             <img class="grid-image" src="../Media/3.jpg">
@@ -87,7 +89,7 @@
         </div>
       </div>
     </div>
-    <div class="grid-contain col-xs-12 col-sm-12 col-md-6 col-lg-6">
+    <div data-aos="fade-left" class="grid-contain col-xs-12 col-sm-12 col-md-6 col-lg-6">
       <div class="grid-contain row">
         <div class="grid-contain col-8">
           <img class="grid-image" src="../Media/4.jpg">
@@ -97,7 +99,7 @@
             <img class="grid-image" src="../Media/3.jpg">
           </div>
           <div class="grid-contain row">
-            <img class="grid-image" src="../Media/1.jpg">
+            <img class="grid-image" src="../Media/2.jpg">
           </div>
         </div>
       </div>
@@ -107,7 +109,7 @@
     <!--Design & Development Container-->    
   <div id="container2" class="row outer-container">
     <h2 class="col-xs-12 col-md-12 col-lg-12 title-head">Design & Development<br></h2>
-    <div class="grid-contain col-xs-12 col-sm-12 col-md-6 col-lg-6">
+    <div data-aos="zoom-in-up" class="grid-contain col-xs-12 col-sm-12 col-md-6 col-lg-6">
       <h4 class="center-element">
         <ul ><br>
           <li>💻 Web</li><br>
@@ -151,7 +153,7 @@
   <div id="container3" class="outer-container row">
     <h2 class="col-sm-12 col-md-12 col-lg-12 title-head">Projects<br> </h2><br>
 
-    <div class="col-sm-3 col-xs-11 projectshow">
+    <div data-aos="fade-up" class="col-sm-3 col-xs-11 projectshow">
       <img class="card-image" src="../Media/cricket.png" alt="" />
 
       <h4 class="card-title">Cricket App</h4>
@@ -160,7 +162,7 @@
 
     </div>
 
-    <div class="col-sm-3 col-xs-11 projectshow">
+    <div data-aos="fade-down" class="col-sm-3 col-xs-11 projectshow">
       <img class="card-image" src="../Media/stock.png" alt="" />
 
       <h4 class="card-title">Stock Analysis Website</h4>
@@ -170,7 +172,7 @@
 
     </div>
 
-    <div class="col-sm-3 col-xs-11 projectshow">
+    <div data-aos="fade-up" class="col-sm-3 col-xs-11 projectshow">
       <img class="card-image" src="../Media/videoapp.png" alt="" />
 
       <h4 class="card-title">Video Sharing App</h4>
@@ -185,7 +187,7 @@
   <div id="container4" class="outer-container row">
     <h2 class="col-sm-12 col-md-12 col-lg-12 title-head">Blogs<br> </h2><br>
 
-    <div class="col-sm-3 col-xs-11 projectshow">
+    <div data-aos="fade-down" class="col-sm-3 col-xs-11 projectshow">
       <img class="card-image" src="../Media/cricket.png" alt="" />
 
       <h4 class="card-title">Cricket App</h4>
@@ -194,7 +196,7 @@
 
     </div>
 
-    <div class="col-sm-3 col-xs-11 projectshow">
+    <div data-aos="fade-up" class="col-sm-3 col-xs-11 projectshow">
       <img class="card-image" src="../Media/stock.png" alt="" />
 
       <h4 class="card-title">Stock Analysis Website</h4>
@@ -204,7 +206,7 @@
 
     </div>
 
-    <div class="col-sm-3 col-xs-11 projectshow">
+    <div data-aos="fade-down" class="col-sm-3 col-xs-11 projectshow">
       <img class="card-image" src="../Media/videoapp.png" alt="" />
 
       <h4 class="card-title">Video Sharing App</h4>
@@ -219,12 +221,12 @@
   <div id="container5" class="outer-container row">
       <h2 class="col-sm-12 col-md-12 col-lg-12 title-head">Meet Our Team<br> </h2><br>
 
-      <div class="team-meet card projectshow col-xs-6 col-md-3">
-          <img class="team-img" src="../Media/div.jpg" alt="divyanshu">
+      <div data-aos="flip-up" class="team-meet card projectshow col-xs-6 col-md-3">
+          <img class="team-img" src="../Media/divy.jpg" alt="divyanshu">
           <div class="container">
             <h4 class="card-title">Divyanshu Kunwar</h4>
             <p class="card-title">Founder</p>
-            <p>..</p>
+            <p>Passionate Coder and UI / UX Designer.</p>
             <ul class="list-inline mt-4" style="text-align: center;">
               <li class="list-inline-item linkicon"><a href="#" target="_blank" itle="github"><i class="fa fa-github"></i></a></li>
               <li class="list-inline-item linkicon"><a href="#" target="_blank" title="instagram"><i class="fa fa-instagram"></i></a></li>
@@ -237,31 +239,7 @@
 
 
   </div>
-  <div  id="collapsibleNavbar">
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link" href="#">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Projects</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Design & <br> Development</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Blogs</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Team</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Contact Us</a>
-      </li>
-
-    </ul>
-  </div>
-
-  <footer>
+  <footer id="container7">
     <div class="container py-5">
       <div class="row py-4">
         <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
@@ -314,7 +292,36 @@
       </div>
     </div>
   </footer>
+  <div  id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#outer-container1">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#container1">Artworks</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#container2">Design & <br> Development</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#container3">Projects</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#container4">Blogs</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#container5">Team</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#container7">Contact Us</a>
+      </li>
+
+    </ul>
+  </div>
   <script src="../Javascript/main.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
