@@ -26,7 +26,7 @@ a{
     font-size: 40px;
 }
 #menu-icon{
-    position: fixed;
+    position: absolute;
     top: 40px;
     right: calc(4.88281% - 9px);
     z-index: 999;
