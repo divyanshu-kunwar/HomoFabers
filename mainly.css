@@ -38,20 +38,16 @@ a{
     display: none;
 }
 #animationContainer{
-    top:80px;
-    left: 15%;
-    right: 15%;
-    width:70%;
-    height: 80%;
+    
     position: relative;
     overflow: hidden;
-    align-self: center;
+    text-align: center; 
 }
 #animated-video{
-    height: auto;
-    width: 70%;
-    transform: matrix(1, 0, 0, 1, 96, -32.85);
-    display: block;
+    max-width: 100vw;
+    max-height: 75vh;
+    position: relative;
+    object-fit: contain;
 }
 #headline-text{
     position: relative;
