@@ -1,2 +1,2 @@
 # HomoFabers
- Homofabers.com
+ Homofabers.co
