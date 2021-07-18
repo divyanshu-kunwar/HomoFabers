@@ -125,7 +125,7 @@ let point_Count = 0;
       this.y_int = y;
       this.figId = "figure"+figId.toString();
       this.figType = figType;
-      this.strokeColor = "#000"
+      this.strokeColor = "#ffff00"
       this.fillColor = "#00000000"
       this.create();
     }
