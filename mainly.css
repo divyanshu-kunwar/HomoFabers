@@ -49,9 +49,9 @@ a{
 }
 #animated-video{
     max-width: 100vw;
-    max-height: 75vh;
+    max-height: 70vh;
     position: relative;
-    object-fit: contain;
+    object-fit: cover;
 }
 #headline-text{
     position: relative;
@@ -95,7 +95,7 @@ a{
 }
 .outer{
     width: 100%;
-    height: 100%;
+    height: auto;
     position:relative;
     margin-bottom: 20px;
 }
@@ -261,7 +261,7 @@ li{
     padding-top: 10px;
     padding-bottom: 10px;
     border-radius: 10px;
-    margin-right: 20px;
+    margin-left: 10px;
 }
 .downloadBtn:hover{
     background-color:black;
