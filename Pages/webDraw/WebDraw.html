@@ -1,0 +1,104 @@
+<!--index.html-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <!-- <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self'; script-src 'self'; base-uri 'self';style-src 'self'">
+    <meta http-equiv="X-Content-Security-Policy"
+        content="default-src 'self'; script-src 'self'; base-uri 'self';style-src 'self'"> -->
+    <!--Style Sheets-->
+    <link rel="stylesheet" href="/style/index.css">
+    <script src="/script/jquery.js"></script>
+    <title>[Web Demo]Annot Drawing App for Screen Annotation</title>
+</head>
+
+<body>
+    <center>It's just a demo complete version of free software is available on <a href="https://www.homofabers.co">Homofabers.Co</a></center>
+    <svg id="drawArea" 
+     xmlns="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink" 
+      version="1.1" width="100vw" height="100vh"></svg>
+    <div id="optionsMenu" class="menuContent">
+        <div id="optionsMenuheader">Draw
+            <img id="collapseMenuBar" src="/icons/dropdown_dark.svg"></img>
+        </div>
+                <div id="menuView">
+                    <div id="dropDownPen" class="dropDownMenu">
+                        <img  id="changePenBtn" src="/icons/Pen.svg"></img>
+                        <div  id="dropPenType" class="dropMenuType">
+                            <a href="#">
+                                <img id="penTool" src="/icons/Pen.svg"></img>
+                            </a>
+                            <a href="#">
+                                <img id="highlighterTool" src="/icons/highlighter.svg" type="text/svg"></img>
+                            </a>
+                        </div>
+                    </div>
+                    <div id="dropDownLine" class="dropDownMenu">
+                        <img id="changeLineBtn" src="/icons/line.svg"></img>
+                        <div id="dropLineType" class="dropMenuType">
+                            <a href="#">
+                                <img id="lineTool" src="/icons/line.svg"></img>
+                            </a>
+                            <a href="#">
+                                <img id="arrowTool" src="/icons/arrow.svg" type="text/svg"></img>
+                            </a>
+                        </div>
+                    </div>
+                    <div id="dropDownShape" class="dropDownMenu">
+                        <img id="changeShapeBtn" src="/icons/rectangle.svg"></img>
+                        <div id="dropShapeType" class="dropMenuType">
+                            <a href="#">
+                                <img id="rectangleTool" src="/icons/rectangle.svg"></img>
+                            </a>
+                            <a href="#">
+                                <img id="ellipseTool" src="/icons/ellipse.svg" type="text/svg"></img>
+                            </a>
+                            <a href="#">
+                                <img id="triangleTool" src="/icons/triangle.svg" type="text/svg"></img>
+                            </a>
+                        </div>
+                    </div>
+                    <div id="dropDownText" class="dropDownMenu">
+                        <img id="textTool" src="/icons/text.svg"></img>
+                    </div>
+                    <div id="dropDownEraser" class="dropDownMenu">
+                        <img id="changeEraserBtn" src="/icons/eraser.svg"></img>
+                        <div id="dropEraserType" class="dropMenuType">
+                            <a href="#">
+                                <img id="eraseTool" src="/icons/eraser.svg"></img>
+                            </a>
+                            <!-- <a href="#">
+                                <img id="shapeeraseTool" src="/icons/shape eraser.svg" type="text/svg"></img>
+                            </a> -->
+                            <a href="#">
+                                <img id="alleraseTool" src="/icons/All erase.svg" type="text/svg"></img>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+    </div>
+
+    <div id="colorPicker" class="picker" 
+     acp-show-rgb="no"
+     acp-show-hsl="no"
+     acp-show-hex="yes"
+     acp-show-alpha
+     acp-palette-editable>
+    </div>
+
+    <div id="settingWindow">
+        <div id="settingWindowheader">.</div>
+        <div id="mainSettingContent"></div>
+    </div>
+
+    <div id="snackbar">Selected Tool</div>
+        <!--Scripts sheets-->
+        <script src="/script/index.js"></script>
+</body>
+
+</html>
