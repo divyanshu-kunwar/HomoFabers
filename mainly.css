@@ -251,4 +251,20 @@ li{
     margin-left: 20px;
     margin-right: 20px;
 }
-container7
+.downloadBtn{
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.774);
+    font-family: indieflower;
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+.downloadBtn:hover{
+    background-color:black;
+    text-decoration: none;
+    color: #fff;
+}
