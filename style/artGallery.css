@@ -12,6 +12,7 @@ body{
     padding: 0;
     background-color: var(--black);
     color:white;
+    overflow-x: hidden;
 }
 #galleryText{
     margin-top: 20px;
@@ -72,6 +73,7 @@ footer{
     padding-top: 20px;
     background:url('../Media/foot2.png') no-repeat;
     background-position: bottom center;
+    background-size:80%;
 }
 .input-group .fa{
     position: absolute;
@@ -89,7 +91,7 @@ footer{
 .input-group input , .input-group textarea{
     color: var(--lightGold);
     background-color: #00000055;
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(10px);
 }
 .columns{
     padding: 2%;
