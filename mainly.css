@@ -138,7 +138,7 @@ a{
     font-size:xx-large;
 }
 footer{
-    background: url('Media/foot.jpg') no-repeat;
+    background: url('Media/foot.png') no-repeat;
     background-position: center bottom;
     position: relative;
     border-top: 1px dashed #000;

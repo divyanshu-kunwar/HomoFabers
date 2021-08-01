@@ -1,0 +1,96 @@
+:root{
+    --black:#191919;
+    --golden:#F0AD4E;
+    --goldenLight:#FED859;
+    --DarkGold:#B68973;
+    --purple:#B689D8;
+    --lightGold:#EABF9F;
+    --grayLight:#333333;
+}
+body{
+    margin: 0%;
+    padding: 0;
+    background-color: var(--black);
+    color:white;
+}
+#galleryText{
+    margin-top: 20px;
+    text-align: center;
+}
+#galleryText object{
+    height:150px;
+    margin-bottom: 50px;
+}
+#scrollMenuBar object{
+    margin-top: 0 px;
+    height: 40px;
+    width: auto;
+    margin-bottom: -5px;
+}
+#scrollMenuBar{
+    display:grid !important;
+}
+#menuBar{
+    margin-top: -30px;
+    margin-left: 140px;
+    margin-right: 20px;
+}
+#menuBar a{
+    color:white;
+    text-decoration: none;
+    font-size: x-large;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+#highlights , #highlights2 , #webDesignInfo, 
+#workDesignInfo ,#someMorePic ,#gallery, #myCarousel{
+    margin-top: 40px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+#highlights object{
+    width: 90%;
+}
+#highlights2 object{
+    width: 27%;
+    margin-left: 1%;
+}
+#webDesignInfo object , #workDesignInfo object{
+    margin-left: -2px;
+    width: 100%;
+}
+#someMorePic object{
+    width: 45%;
+}
+#webDesignInfo , #workDesignInfo{
+    background-color: var(--grayLight);
+}
+#myCarousel object{
+    width: 70%;
+}
+footer{
+    padding-top: 20px;
+    background:url('../Media/foot2.png') no-repeat;
+    background-position: bottom center;
+}
+.input-group .fa{
+    position: absolute;
+    bottom:16px;
+    right: 1px;
+    z-index: 10;
+    font-size: large;
+    padding: 6px;
+    border: 1px solid #fff;
+    color: var(--DarkGold);
+}
+#container7 a{
+    color: var(--lightGold);
+}
+.input-group input , .input-group textarea{
+    color: var(--lightGold);
+    background-color: #00000055;
+    backdrop-filter: blur(20px);
+}
+.columns{
+    padding: 2%;
+}

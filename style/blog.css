@@ -17,16 +17,15 @@ body{
 }
 #titleDoc{
     
-    background-color: #050913;
+    background-color: #ffed9e;
     text-align: center;
     align-self: center;
-
     padding-bottom: 10px;
 }
 #titleDoc p{
     font-size: xx-large;
     padding-top: 40px;
-    color: #fff;
+    color: rgb(31, 31, 31);
 }
 .heading{
     height: fit-content;
@@ -55,7 +54,7 @@ body{
     padding: 2%;
 }
 footer{
-    background: url('../Media/foot.jpg') no-repeat;
+    background: url('../Media/foot.png') no-repeat;
     background-position: center bottom;
     position: relative;
     border-top: 1px dashed #000;
