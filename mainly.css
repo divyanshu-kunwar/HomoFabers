@@ -269,7 +269,14 @@ li{
     color: #fff;
 }
 #latest_blog{
-    margin-left: 35% ;
+    margin-left: 20% ;
+    width: 60%;
+    padding: 25px;
+    background-color: #f4f4f4;
+}
+#latest_blog_{
+    margin-left: 20% ;
+    margin-bottom: 10px;
     width: 60%;
     padding: 25px;
     background-color: #f4f4f4;
@@ -279,11 +286,24 @@ li{
     padding-top: 30px;
     padding-bottom: 30px;
 }
+#latest_blog_ div img{
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 #latest_blog_a{
     text-decoration: none;
     opacity: 0.9;
 }
 #latest_blog_a:hover{
+     opacity: 1.0;
+     text-shadow: 1px 1px 1px #ddd;
+}
+#latest_blog_b{
+    text-decoration: none;
+    opacity: 0.9;
+}
+#latest_blog_b:hover{
      opacity: 1.0;
      text-shadow: 1px 1px 1px #ddd;
 }
