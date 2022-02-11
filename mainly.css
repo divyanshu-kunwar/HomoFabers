@@ -110,21 +110,15 @@ a{
     align-content: center;
 }
 .projectshow{
-    margin-left: auto;
-    margin-right: auto;
+    margin: 1%;
     padding: 0px !important;
-    width: 100% !important;
+    /* width: 100% !important; */
     background-color: #ffffff;
     border-radius: 10px;
     box-shadow: 0px 2px 10px #B0B0B0;
 }
 .projectshow:hover{
     box-shadow: 0px -2px 10px #79b3ff;
-}
-.card-image{
-    width: 100%;
-    object-fit: contain;
-    border-radius: 10px;
 }
 .card-title{
     margin-top: 10px;
