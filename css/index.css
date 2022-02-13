@@ -54,12 +54,14 @@ body{
     align-items: center;
     justify-items: center;
     margin: 20px;
+    
 }
 
 #subTechContainer div{
     width: 50%;
     font-size: 24px;
     justify-items: center;
+    
 }
 
 #tech_text{
@@ -76,6 +78,8 @@ body{
     display: flex;
     flex-wrap: wrap;
     padding: 0 4px;
+    box-shadow: 0px 0px 4px #3171EF;
+    justify-content: space-between;
   }
   
   /* Create four equal columns that sits next to each other */
@@ -84,7 +88,10 @@ body{
     flex: 33%;
     max-width: 28%;
     padding: 0 4px;
-    box-shadow: 0px 0px 4px #fece2f;
+    animation: shake linear 2s infinite;
+  }
+  .tech_column:hover{
+    box-shadow: 0px 0px 4px #3171EF;
   }
   
   .tech_column img {
@@ -104,18 +111,23 @@ body{
     margin: 10px;
     flex: 33.3%;
     max-width: 28%;
-    box-shadow: 0px 0px 4px #fece2f;
+    box-shadow: 0px 0px 4px #80a9fc;
     border-radius: 8px;
+  }
+  .project_col:hover{
+
+    box-shadow: 0px 0px 8px #3171EF;
+
   }
   .project_col img{
       width: 100%;
       object-fit: contain;
       border-radius: 8px 8px 0px 0px;
-      filter: blur(1px) grayscale(20%) hue-rotate(40deg);
+      filter:  grayscale(20%) hue-rotate(40deg);
       cursor: pointer;
     }
   .project_col img:hover{
-    filter: blur(0px) grayscale(0%) hue-rotate(0deg);
+    filter:  grayscale(0%) hue-rotate(0deg);
   }
   .project_col h3{
         margin-top: 10px;
@@ -129,7 +141,7 @@ body{
   }
 
   .project_col p a{
-        color: #fece2f;
+        color: #3171EF;
         text-decoration: none;
         text-transform: uppercase;
         padding-top: 10px;
@@ -164,6 +176,7 @@ body{
     margin: 0px;
     flex: 25%;
     max-width: 22%;
+    animation: shake ease-in-out 5s infinite;
   }
   .design_col img{
         width: 100%;
@@ -199,7 +212,7 @@ body{
     margin-left: 18px;
 }
 #collapsibleNavbar a:active{
-    text-shadow: 0px 0px 4px #58d8ff;
+    text-shadow: 0px 0px 4px #3171EF;
 }
 
 .navbar-nav{
@@ -225,13 +238,13 @@ footer{
     color: #000;
 }
 .fa-github:hover{
-    box-shadow: 0px 2px 10px #58d8ff;
+    box-shadow: 0px 2px 10px #3171EF;
 }
 .fa-instagram:hover{
-    box-shadow: 0px 2px 10px #58d8ff;
+    box-shadow: 0px 2px 10px #3171EF;
 }
 .fa-quora:hover{
-    box-shadow: 0px 2px 10px #58d8ff;
+    box-shadow: 0px 2px 10px #3171EF;
 }
 
 .container5{
@@ -262,13 +275,14 @@ footer{
     box-shadow: 0px 2px 10px #B0B0B0;
 }
 .projectshow:hover{
-    box-shadow: 0px -2px 10px #79b3ff;
+    box-shadow: 0px -2px 10px #3171EF;
 }
 
 .projectshow:hover .team-img{
     -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
     filter: grayscale(0%);
     transition: 2s ease;
+    animation: shake ease-in-out 5s infinite;
   }
   .team-img{
     border-radius: 20px 20px 0px 0px;
@@ -293,7 +307,11 @@ footer{
     background-color: #ffffff;
     color: rgb(0, 0, 0);
     box-shadow: 0px 2px 10px #c8c8c8;
+    
 } 
+.projectshow:hover .linkicon i{
+    animation: shake ease-in-out 5s infinite;
+}
 
 @media screen and (max-width: 425px) {
         #videoAnim{
@@ -317,3 +335,17 @@ footer{
             max-width: 88%;
         }
 }
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
