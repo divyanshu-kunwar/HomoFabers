@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="mainly.css" />
+  <link rel="icon" href="Media/dark_logo.png">
+  
+  <script src=" Javascript/curtains.umd.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <!--Some Downloaded Styles-->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Homofabers</title>
+</head>
+
+<body>
+  <!--Main Container with Animation-->
+  <div id="outer-container1" class="outer">
+    <div id="animationContainer">
+      <video id="animated-video" loop="" muted="" playsinline="" autoplay="" preload="auto"
+  src=" Media/hm-hero-desktop-non-retina.mp4"></video>
+</div>
+<div id="menu-icon">
+  <div id="hamburger">
+    <svg width="25px" height="15px" viewBox="0 0 17 10" version="1.1" xmlns="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink">
+      <g id="00---Navigation" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Navigation---Open---Default---768" transform="translate(-711.000000, -44.000000)" fill="#000000">
+          <g id="Navigation---768" transform="translate(40.000000, 44.000000)">
+            <g id="Hamburger" transform="translate(671.000000, 0.000000)">
+              <rect id="Rectangle-5" x="0" y="0" width="17" height="2"></rect>
+              <rect id="Rectangle-5" x="0" y="4" width="17" height="2"></rect>
+              <rect id="Rectangle-5" x="0" y="8" width="12" height="2"></rect>
+            </g>
+          </g>
+        </g>
+      </g>
+    </svg>
+  </div>
+  <div id="close">
+    <svg class="close" width="54px" height="54px" viewBox="0 0 34 34" xmlns="http://www.w3.org/2000/svg">
+      <!--	<circle id="Oval" fill="#1D1F23" cx="17" cy="17" r="17"></circle>-->
+
+      <g transform="translate(11.4, 10.4)">
+        <path class="line1"
+          d="M10.94,9.73c0-.06,0-.26-.08-.3s-.23-.29-.37-.42a.6.6,0,0,1-.12-.29c0-.08-.14-.08-.19-.14a4.1,4.1,0,0,1-.26-.41A32.4,32.4,0,0,0,7.16,5.34c-.07,0-.18,0-.22,0C7,5,6.66,5,6.44,4.77,6,4.44,5.66,4,5.27,3.65c0,0-.14,0-.19,0-.21-.13-.32-.38-.6-.37a1.62,1.62,0,0,0-.92-.71c.06-.21-.13-.19-.21-.26s-.1-.15-.18-.2a13.54,13.54,0,0,0-1.11-.84c0-.1,0-.19-.07-.21-.23.16-.44.31-.54.17l-.33.24c0-.19-.18-.08-.37.09.13.24.37.44.17.89,0,.08.08,0,.11.09A1.57,1.57,0,0,0,1.37,3.9c.34.05.43.33.66.56.26-.1.24.15.32.26s.25.12.35.21.13.28.35.23c0,.11,0,.06.05.17a.36.36,0,0,1,.19,0c.35.25.61.67,1,.78,0,.07,0,.11,0,.17s.27.2.38.27.07.16.14.23.25.13.35.21c.37.33.78.73,1,1s.55.49.79.76.42.34.59.54.14.26.23.37.44.2.48.52a1.17,1.17,0,0,1,.2.06A13.37,13.37,0,0,1,10,12c.05.07.09-.14.11-.07.21.12.25.35.41.49s.05-.06.08,0,.12.16.25.15.18-.16.22-.08.12,0,.14.15c.24-.15.26,0,.38.09s.24,0,.33.1.13.26.27.27.06-.1.16-.17a.85.85,0,0,0-.07-.64c-.1-.1,0-.37-.23-.47s.12,0,0-.1-.07,0-.1,0c.17-.17-.06-.4-.17-.36s0,.05,0,.09-.22-.27-.21-.43c.1,0,0,.19.15.17a1.13,1.13,0,0,0-.24-.48c-.11.1.09.16,0,.31-.09-.11-.17-.33-.23-.38s.17-.08.11-.16C11.31,10.09,11.06,10,10.94,9.73Zm.33.62c.07.07-.14-.11,0,0Zm-.4-.55c.11-.08,0,.07.05.07C10.83,10,10.87,9.82,10.87,9.8ZM11,10l-.07-.12S11.11,9.93,11,10Zm.89,1.37c.08-.07.07.07.11.09S11.9,11.43,11.86,11.41Z"
+          transform="translate(-0.75 -0.39)" fill="#fff" fill-rule="evenodd"></path>
+        <path class="line2"
+          d="M9.24,2.34c.34,0-.14.11,0,.25s.2-.12.2-.12L9.8,2A6.93,6.93,0,0,1,11.06.53c.08,0,.19.08.27.06s0-.22.2-.19c.45.37-.14.51.16.9-.15.26-.51.52-.29.86-.73.9-.83,2.14-1.81,2.7a6.32,6.32,0,0,1-1.4,1.63,10,10,0,0,1-.75.83c-.05,0-.15,0-.2,0a11.5,11.5,0,0,0-.91,1.06,5.34,5.34,0,0,1-.48.64c-.27.25-.56.68-.91,1.07-.16.2-.44.3-.58.5,0,0,0,.16,0,.2s-.1,0-.14.06,0,.13,0,.16a4.54,4.54,0,0,1-.38.38,3.18,3.18,0,0,1-.4.48,1.37,1.37,0,0,1-.42.25s-.17,0-.24,0-.06.09-.11.11c-.23.08-.61-.06-.7.2a1.23,1.23,0,0,0-.37,0,.78.78,0,0,1-.2-.45c-.15-.15-.32-.15-.38-.28s.37-.24.44-.44-.08-.47.11-.52c0-.09-.1-.23-.09-.31.28-.14.35-.51.59-.76.08-.08.25-.08.33-.17s0-.11,0-.13a2.57,2.57,0,0,1,.33-.32c.15-.14.47-.4.69-.61C3.77,8,4,7.49,4.5,7.13c0-.32.49-.47.63-.79s.57-.46.82-.73C7,4.47,8.06,3.44,9.24,2.34Z"
+          transform="translate(-0.75 -0.39)" fill="#fff" fill-rule="evenodd"></path>
+      </g>
+
+
+    </svg>
+  </div>
+</div>
+    <div id="logo">
+      <a href="#">
+        <img id="logo-img" src=" Media/logo_full.png" alt="logo" />
+      </a>
+    </div>
+
+    <div id="headline-text">
+      <h3>We make digital and (magical)</h3>
+      <h1 id="typewrite-text">
+        <span class="typewrite" data-period="500"
+          data-type='[ "Websites", "Mobile App", "Desktop App", "Software Solution", "Graphic Design" ]'>
+        </span>
+      </h1>
+    </div>
+  </div>
+
+      <!--Design & Development Container-->    
+      <div id="container2" class="row outer-container">
+        <h2 class="col-xs-12 col-md-12 col-lg-12 title-head">Design & Development<br></h2>
+        <div data-aos="zoom-in-up" class="grid-contain col-xs-12 col-sm-12 col-md-6 col-lg-6">
+          <h4>
+            <ul ><br>
+              <li>💻 Web</li><br>
+              <li>📱 Mobile App</li><br>
+              <li>📈 Business solution</li><br>
+              <li>🎨 Art Work | Illustrations</li><br>
+              <li>🎬 Graphic Design | Animation | Logo Design</li>
+            </ul>
+          </h4>
+        </div>
+        <div class="grid-contain col-xs-12 col-sm-12 col-md-6 col-lg-6">
+          <div class="grid-contain row technology-used">
+            <div class="grid-contain col-4">
+              <div class="grid-contain row">
+                <img class="grid-image" src=" Media/1.gif">
+              </div>
+              <div class="grid-contain row">
+                <img class="grid-image" src=" Media/2.gif">
+              </div>
+            </div>
+            <div class="grid-contain col-4">
+              <div class="grid-contain row">
+                <img class="grid-image" src=" Media/3.gif">
+              </div>
+              <div class="grid-contain row">
+                <img class="grid-image" src=" Media/4.gif">
+              </div>
+            </div>
+            <div class="grid-contain col-4">
+              <div class="grid-contain row">
+                <img class="grid-image" src=" Media/5.gif">
+              </div>
+              <div class="grid-contain row">
+                <img class="grid-image" src=" Media/6.gif">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <a id="latest_blog_b" href="https://medium.com/@kdivyanshu3/visualize-stocks-using-matplotlib-15d7736ca349">
+        <div id="latest_blog_" class="container row">
+          <div id="img_div" class="col-xs-12 col-sm-6 col-md-5 col-lg-3">
+            <img src="media/candle.png" alt="">
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-7 col-lg-9">
+            <b>RECENT BLOGS</b> </br>
+            <small>26-Aug-2021</small></br>
+            <h4 style="color: black;">
+              Visualize Stocks using matplotlib [ Candlestick ]</h4>
+            <hr>
+            <p style="color: black;">
+              Visualize Stocks using matplotlib
+              Candlestick graphs are the most common graph used in the finance.
+               It consists of a line showing ‘ High Price ’ and ‘ Low Price ’ 
+               and a rectangle showing the ‘ Open Price ’ and ‘ Close Price ’ for the day. 
+          </p>
+          </div>
+        </div>
+      </a>
+      <center><iframe width="885" height="498" src="https://www.youtube.com/embed/YoS362Sjwic" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+      <center><iframe width="885" height="498" src="https://www.youtube.com/embed/SZD9dttDLCA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+    <a id="latest_blog_a" href="Pages/blogs/blogs/blog001.html">
+    <div id="latest_blog" class="container row">
+      <div id="img_div" class="col-xs-12 col-sm-6 col-md-5 col-lg-3">
+        <img src="/Pages/blogs/media/blog001.png" alt="">
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-7 col-lg-9">
+        <b>RECENT BLOGS</b> </br>
+        <small>26-Aug-2021</small></br>
+        <h4 style="color: black;">
+        Visualize National Stock Exchange data using Python</h4>
+        <hr>
+        <p style="color: black;">
+        Using pandas and matplotlib to plot date vs close price in google collab.
+        National Stock Exchange of India Limited is the leading stock exchange of India.
+        NSE was established in 1992 as the first dematerialized electronic exchange in the country.
+      </p>
+      </div>
+    </div>
+  </a>
+
+  <!--Artwork Container-->
+  <div id="container1" class="row outer-container">
+    <h2 class="col-xs-12 col-md-12 col-lg-12 title-head">Art Work <br><br></h2>
+    <div data-aos="fade-right" class="grid-contain col-xs-12 col-sm-12 col-md-6 col-lg-6">
+      <div class="grid-contain row">
+        <div class="grid-contain col-4">
+          <div class="grid-contain row">
+            <img class="grid-image" src=" Media/3.jpg">
+          </div>
+          <div class="grid-contain row">
+            <img class="grid-image" src=" Media/2.jpg">
+          </div>
+        </div>
+        <div class="grid-contain col-8">
+          <img class="grid-image" src=" Media/1.jpg">
+        </div>
+      </div>
+    </div>
+    <div data-aos="fade-left" class="grid-contain col-xs-12 col-sm-12 col-md-6 col-lg-6">
+      <div class="grid-contain row">
+        <div class="grid-contain col-8">
+          <img class="grid-image" src=" Media/5.jpg">
+        </div>
+        <div class="grid-contain col-4">
+          <div class="grid-contain row">
+            <img class="grid-image" src=" Media/4.jpg">
+          </div>
+          <div class="grid-contain row">
+            <img class="grid-image" src=" Media/6.jpg">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!--Annot Ultimate Container-->    
+    <div id="container2" class="row outer-container">
+      <h2 class="col-xs-12 col-md-12 col-lg-12 title-head">Annot Ultimate Artist<br></h2>
+      <div class="grid-contain col-xs-12 col-sm-12 col-md-6 col-lg-6">
+        <iframe width="100%" height="360px" src="https://www.youtube.com/embed/mxt5KyqqvrE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div data-aos="zoom-in-up" class="grid-contain col-xs-12 col-sm-12 col-md-6 col-lg-6">
+        <h4>
+          <ul >
+            <li>Draw and annotate your Screen</li><br>
+            <li>Highlight while browsing internet</li><br>
+            <li>Shapes , arrows and many more</li><br>
+            <li>Text and Pen</li><br>
+            <li>Snapshot and Mouse Through</li><br><br>
+            <li> <a href="https://drive.google.com/file/d/1AX1ySwmkXphwda9D6UglNZa0hmAU71Jz/view?usp=sharing" class="downloadBtn bg-dark">
+              <img src="icons/icon.ico" alt=""/>
+              Download</a>
+              <a href="Pages/webDraw/WebDraw.html" class="downloadBtn bg-dark">Web Version</a></li>
+          </ul>
+        </h4>
+      </div>
+    </div>
+  <!--Projects-->
+  <div id="container3" class="outer-container row">
+    <h2 class="col-sm-12 col-md-12 col-lg-12 title-head">Projects<br> </h2><br>
+
+    <div data-aos="fade-up" class="col-sm-5 col-xs-11 projectshow">
+      <iframe width="100%" height="auto" src="https://www.youtube.com/embed/oIUcRIO8D1c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+      <h4 class="card-title">Cricket App</h4>
+      <p>Sample cricket app ui designed in figma. 
+        Contact for custom ui/ux design and app development.</p>
+
+    </div>
+
+    <div data-aos="fade-down" class="col-sm-4 col-xs-11 projectshow">
+      <iframe width="100%" height="auto" src="https://www.youtube.com/embed/fAkNa3Nmp0Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+      <h4 class="card-title">Stock Analysis Website</h4>
+      <p>Sample stock analysis web site / Desktop app ui designed in figma. 
+        Contact for custom ui/ux design and web app / desktop app development.
+      </p>
+
+    </div>
+
+    <div data-aos="fade-up" class="col-sm-4 col-xs-11 projectshow">
+      <iframe width="100%" height="auto" src="https://www.youtube.com/embed/y66cp0F0lJE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+      <h4 class="card-title">Video Sharing App</h4>
+      <p>Sample login screen of video sharing app ui designed in figma. 
+        Contact for custom ui/ux design and app development.
+      </p>
+
+    </div>
+
+    <div data-aos="fade-up" class="col-sm-4 col-xs-11 projectshow">
+      <iframe width="100%" height="auto" src="https://www.youtube.com/embed/gYL1H7hDFuo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+      <h4 class="card-title">Video Sharing App</h4>
+      <p>Sample login screen of video sharing app ui designed in figma. 
+        Contact for custom ui/ux design and app development.
+      </p>
+
+    </div>
+    
+    <div data-aos="fade-up" class="col-sm-4 col-xs-11 projectshow">
+      <iframe width="100%" height="auto" src="https://www.youtube.com/embed/LyrK9k7Gv-s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+      <h4 class="card-title">Video Sharing App</h4>
+      <p>Sample login screen of video sharing app ui designed in figma. 
+        Contact for custom ui/ux design and app development.
+      </p>
+
+    </div>
+
+    <div data-aos="fade-up" class="col-sm-4 col-xs-11 projectshow">
+      <iframe width="100%" height="auto" src="https://www.youtube.com/embed/6InaPVRgSKQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+      <h4 class="card-title">Video Sharing App</h4>
+      <p>Sample login screen of video sharing app ui designed in figma. 
+        Contact for custom ui/ux design and app development.
+      </p>
+
+    </div>
+
+    <div data-aos="fade-up" class="col-sm-4 col-xs-11 projectshow">
+      <iframe width="100%" height="auto" src="https://www.youtube.com/embed/jYbMZLHr_QI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <h4 class="card-title">Video Sharing App</h4>
+      <p>Sample login screen of video sharing app ui designed in figma. 
+        Contact for custom ui/ux design and app development.
+      </p>
+
+    </div>
+
+  </div>
+
+  <!--Blogs-->
+  <div id="container4" class="outer-container row">
+    <h2 class="col-sm-12 col-md-12 col-lg-12 title-head">Blogs<br> </h2><br>
+
+    <div data-aos="fade-down" class="col-sm-3 col-xs-11 projectshow">
+      <img class="card-image" src=" Media/cricket.png" alt="" />
+
+      <h4 class="card-title">Cricket App</h4>
+      <p>Sample cricket app ui designed in figma. 
+        Contact for custom ui/ux design and app development.</p>
+
+    </div>
+
+    <div data-aos="fade-up" class="col-sm-3 col-xs-11 projectshow">
+      <img class="card-image" src=" Media/stock.png" alt="" />
+
+      <h4 class="card-title">Stock Analysis Website</h4>
+      <p>Sample stock analysis web site / Desktop app ui designed in figma. 
+        Contact for custom ui/ux design and web app / desktop app development.
+      </p>
+
+    </div>
+
+    <div data-aos="fade-down" class="col-sm-3 col-xs-11 projectshow">
+      <img class="card-image" src=" Media/videoapp.png" alt="" />
+
+      <h4 class="card-title">Video Sharing App</h4>
+      <p>Sample login screen of video sharing app ui designed in figma. 
+        Contact for custom ui/ux design and app development.
+      </p>
+
+    </div>
+  </div>
+
+    <!--Meet Our Team-->
+  <div id="container5" class="outer-container row">
+      <h2 class="col-sm-12 col-md-12 col-lg-12 title-head">Meet Our Team<br> </h2><br>
+
+      <div data-aos="flip-up" class="team-meet card projectshow col-xs-6 col-md-3">
+          <img class="team-img" src=" Media/divy.jpg" alt="divyanshu">
+          <div class="container">
+            <h4 class="card-title">Divyanshu Kunwar</h4>
+            <p class="card-title">Co-Founder & CTO</p>
+            <p>Passionate Coder and UI / UX & motion Designer.</p>
+            <ul class="list-inline mt-4" style="text-align: center;">
+              <li class="list-inline-item linkicon"><a href="https://github.com/kUNWAR-DIVYANSHU/" target="_blank" itle="github"><i class="fa fa-github"></i></a></li>
+              <li class="list-inline-item linkicon"><a href="https://www.instagram.com/divyanshu_1.0/" target="_blank" title="instagram"><i class="fa fa-instagram"></i></a></li>
+              <li class="list-inline-item linkicon"><a href="https://www.quora.com/profile/Kunwar-Divyanshu-4" target="_blank" title="quora"><i class="fa fa-quora"></i></a></li>
+            </ul>
+            
+          </div>
+      </div>
+
+      <!-- <div data-aos="flip-up" class="team-meet card projectshow col-xs-6 col-md-3">
+        <img class="team-img" src=" Media/divy.jpg" alt="divyanshu">
+        <div class="container">
+          <h4 class="card-title">Divyanshu Kunwar</h4>
+          <p class="card-title">Founder & CTO</p>
+          <p>Passionate Coder and UI / UX Designer.</p>
+          <ul class="list-inline mt-4" style="text-align: center;">
+            <li class="list-inline-item linkicon"><a href="https://github.com/kUNWAR-DIVYANSHU/" target="_blank" itle="github"><i class="fa fa-github"></i></a></li>
+            <li class="list-inline-item linkicon"><a href="https://www.instagram.com/divyanshu_1.0/" target="_blank" title="instagram"><i class="fa fa-instagram"></i></a></li>
+            <li class="list-inline-item linkicon"><a href="https://www.quora.com/profile/Kunwar-Divyanshu-4" target="_blank" title="quora"><i class="fa fa-quora"></i></a></li>
+          </ul>
+          
+        </div>
+    </div> -->
+
+      <div data-aos="flip-up" class="team-meet card projectshow col-xs-6 col-md-3">
+        <img class="team-img" src=" Media/princ.jpg" alt="divyanshu">
+        <div class="container">
+          <h4 class="card-title">Prince Singhania</h4>
+          <p class="card-title">Co-Founder & CDO</p>
+          <p>Passionate Sketch Artist , Painter and Designer.</p>
+          <ul class="list-inline mt-4" style="text-align: center;">
+            <li class="list-inline-item linkicon"><a href="https://www.instagram.com/homocrafter/" target="_blank" title="instagram"><i class="fa fa-instagram"></i></a></li>
+          </ul>          
+        </div>
+      </div>
+    
+
+
+  </div>
+  <footer id="container7">
+    <div class="container py-5">
+      <div class="row py-4">
+        <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+          <img src=" Media/dark_logo.png" alt="" style="width: 50%;" class="mb-3">
+          <ul class="list-inline mt-4">
+            <li class="list-inline-item"><a href="https://github.com/kUNWAR-DIVYANSHU/" target="_blank" itle="github"><i class="fa fa-github"></i></a></li>
+            <li class="list-inline-item"><a href="https://www.youtube.com/c/HomoFabers/" target="_blank" title="youtube"><i class="fa fa-youtube"></i></a>
+            </li>
+            <li class="list-inline-item"><a href="https://www.instagram.com/homocrafter/" target="_blank" title="instagram"><i
+                  class="fa fa-instagram"></i></a></li>
+            <li class="list-inline-item"><a href="https://www.instagram.com/divyanshu_1.0/" target="_blank" title="instagram"><i
+                  class="fa fa-instagram"></i></a></li>
+            <li class="list-inline-item"><a href="https://www.quora.com/profile/Kunwar-Divyanshu-4" target="_blank" title="quora"><i class="fa fa-quora"></i></a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+          We are group of software developers , designers and artist.
+          Who helps business to get online. We design and develop websites , apps ,
+          illustrations , motion graphics and almost everything that will help existing business to
+          go online or to kickstart a startup.
+        </div>
+        <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+          <h6 class="text-uppercase font-weight-bold mb-4">HomoFabers</h6>
+          <ul class="list-unstyled mb-0">
+            <li class="mb-2"><a href="#" class="text-muted">Fabe App</a></li>
+            <li class="mb-2"><a href="https://www.youtube.com/c/HomoFabers/" class="text-muted">Youtube</a></li>
+            <li class="mb-2"><a href="https://www.instagram.com/homocrafter/" class="text-muted">Homocrafter</a></li>
+            <li class="mb-2"><a href="Pages/artGallery.html" class="text-muted">Art Gallery</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-lg-0">
+          <h6 class="text-uppercase font-weight-bold mb-4">Contact Us</h6>
+          <form action="https://script.google.com/macros/s/AKfycbyiTI2tDnV9NkzmuZ34jTJVU-sr5f5P5Qyki0-u4T9sS6fj6dFRviOZ3X0t7pg5FOk5HA/exec" method="POST">
+          <div class="p-1 rounded border">
+            <div class="input-group">
+              <textarea id="subject" name="message" placeholder="message .."
+                style="width: 100%; height:120px;"></textarea>
+              <input name="email" type="email" placeholder="Enter your email address" aria-describedby="button-addon1"
+                class="form-control border-0 shadow-0">
+              <div class="input-group-append">
+                <button id="button-addon1" type="submit" class="btn btn-link"><i class="fa fa-paper-plane"></i></button>
+              </div>
+            </div>
+          </div>
+        </form>
+        </div>
+      </div>
+    </div>
+    <!-- Copyrights -->
+    <div class="row">
+      <div class="col text-center">
+        <p class="text-light mb-0 py-2">NO © Copy It !😅</p>
+      </div>
+    </div>
+  </footer>
+  <div  id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#outer-container1">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#container1">Artworks</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#container2">Design & <br> Development</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#container3">Projects</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#container4">Blogs</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#container5">Team</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#container7">Contact Us</a>
+      </li>
+
+    </ul>
+  </div>
+  <script src=" Javascript/main.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
