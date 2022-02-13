@@ -137,8 +137,21 @@ body{
         border-radius: 4px;
   }
 
-  #projects h2{
+ #projects h2{
       margin-left: 5%;
+      margin-top: 40px ;
+      margin-bottom: 20px ;
+  }
+
+  #artworks h2 {
+    margin-left: 5%;
+    margin-top: 40px ;
+    margin-bottom: 40px ;
+  }
+  .title-head{
+    margin-left: 5%;
+    margin-top: 40px ;
+    margin-bottom: 40px ;
   }
 
   .design_row{
@@ -151,14 +164,16 @@ body{
     margin: 0px;
     flex: 25%;
     max-width: 22%;
-    box-shadow: 0px 0px 4px #fece2f;
   }
   .design_col img{
         width: 100%;
-        object-fit: contain;
-        filter: blur(1px) grayscale(20%) hue-rotate(40deg);
+        object-fit: cover;
+        filter: blur(0.5px) grayscale(10%) hue-rotate(10deg);
         cursor: pointer;
   }
+  .design_col img:hover{
+    filter: blur(0px) grayscale(0%) hue-rotate(0deg);
+}
 
   #collapsibleNavbar{
     top: 0px;
@@ -226,6 +241,8 @@ footer{
     align-content: center;
 }
 
+
+
 .team-meet{
     align-content: center;
     margin-left: auto;
@@ -233,6 +250,7 @@ footer{
     background-color: #ffffff;
     border-radius: 20px !important;
     box-shadow: 0px 2px 10px #B0B0B0;
+    margin-left: 5% !important;
 }
 
 .projectshow{
@@ -267,6 +285,15 @@ footer{
 .card-title a{
     font-size:xx-large;
 }
+
+.linkicon i{
+    font-size: x-large;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    box-shadow: 0px 2px 10px #c8c8c8;
+} 
 
 @media screen and (max-width: 425px) {
         #videoAnim{
